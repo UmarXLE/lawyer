@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './AboutComponents.module.scss'
-import icon from '../../media/images/about-1.png'
+import iconAbout from '../../media/images/about-1.png'
 const AboutComponents = () => {
     return (
         <section className={css.wrapper}>
@@ -12,7 +12,7 @@ const AboutComponents = () => {
                     <p>Мы осуществляем весь спектр бухгалтерских услуг, начиная от мини-аудита до сдачи всех отчетов любой сложности</p>
                 </div>
                 <div className={css.wrapper__content_img}>
-                    <img src={icon} alt=""/>
+                    <img src={iconAbout} alt=""/>
                 </div>
             </div>
         </section>
