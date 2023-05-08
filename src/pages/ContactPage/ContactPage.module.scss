@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  & h1 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: 278px;
+    text-align: center;
+    padding-left:20px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    width: 100%;
+    max-width: 1320px;
+    padding:100px 39px 60px 45px;
+    margin: 0 auto;
+    background: #3B465E;
+    border-radius: 25px;
+
+    & h2 {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 30px;
+      color: #FFFFFF;
+      margin-bottom: 30px;
+    }
+
+    & p {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 50px;
+      color: #FFFFFF;
+
+      & a {
+        color: white;
+      }
+    }
+  }
+}
