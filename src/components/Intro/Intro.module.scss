@@ -1,0 +1,46 @@
+.wrapper {
+  background-image: url("../../media/images/intro.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 103vh;
+  padding-top: 156px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //max-width: 1544px;
+  &__text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 140px;
+
+    & h1 {
+      font-weight: 800;
+      font-size: 35px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.08em;
+      color: #F5F5F5;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    text-align: start;
+    letter-spacing: 0.08em;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 60px;
+    //margin-top: 150px;
+    background: #008AFF;
+    border: 1px solid #0077FF;
+    border-radius: 27px;
+    padding: 25px 35px;
+  }
+
+}
