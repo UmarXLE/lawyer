@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './AboutDirector.module.scss'
-import icon from '../../media/images/about-director.png'
+import iconDirector from '../../media/images/about-director.png'
 const AboutDirector = () => {
     return (
         <section className={css.wrapper}>
@@ -12,7 +12,7 @@ const AboutDirector = () => {
                     <p>Магистр юриспруденции опыт работы более 5 лет в юридической сфере, бизнес-консультант, эксперт по систематизации и автоматизации бизнес-процессов, тренер по финансовой грамотности, эксперт по ораторскому искусству.</p>
                 </div>
                 <div className={css.wrapper__content_img}>
-                    <img src={icon} alt=""/>
+                    <img src={iconDirector} alt=""/>
                 </div>
             </div>
         </section>
