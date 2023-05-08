@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  max-width: 1346px;
+  margin: 0 auto;
+  padding-top: 140px;
+
+  & h1 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #F5F5F5;
+    margin-bottom: 60px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    &_text {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      color: #F5F5F5;
+      padding: 0 0 47px 40px;
+    }
+  }
+}
