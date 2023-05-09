@@ -1,0 +1,55 @@
+.wrapper {
+  max-width: 663px;
+  width: 100%;
+  margin: 0 28.5% 0 auto;
+  padding-top: 138px;
+  position: relative;
+  & img {
+    opacity: 30%;
+  }
+
+  &_img1 {
+    position: absolute;
+    top: 14%;
+    left: -15%;
+    z-index: 100;
+  }
+  &_img2 {
+    position: absolute;
+    bottom: -3%;
+    right: -21%;
+    z-index: 100;
+  }
+
+  & h1 {
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 40px 178px;
+    background: #008AFF;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 0;
+  }
+
+  &__btnContainer {
+    background: rgba(122, 105, 105, 0.45);
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    height: 264px;
+    padding-top: 126px;
+    & a {
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 36px;
+      background: #008AFF;
+      border-radius: 15px;
+      padding: 25px 30px;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
+
+
+}
