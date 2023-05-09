@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  max-width: 1192px;
+  margin: 0 auto;
+  padding: 50px 20px 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.wrapper__item {
+  text-decoration: none;
+}
+.wrapper__item h1 {
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=ServicesBlog.module.css.map */
