@@ -1,0 +1,42 @@
+.wrapper {
+  background-image: url("../../media/images/intro.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 286px 0 76px 0;
+}
+.wrapper__text {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 140px;
+}
+.wrapper__text h1 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #F5F5F5;
+}
+.wrapper__btn {
+  display: inline-block;
+  text-align: start;
+  letter-spacing: 0.08em;
+  color: #F5F5F5;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 60px;
+  background: #008AFF;
+  border: 1px solid #0077FF;
+  border-radius: 27px;
+  padding: 25px 35px;
+}
+
+/*# sourceMappingURL=Intro.module.css.map */
