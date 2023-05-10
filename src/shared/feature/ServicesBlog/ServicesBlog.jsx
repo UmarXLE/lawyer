@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 const ServicesBlog = () => {
     return (
         <section className={css.wrapper}>
-            <Link to='' className={css.wrapper__item}>
+            <Link to='/accountingservice' className={css.wrapper__item}>
                 <h1>Бухгалтерские услуги </h1>
                 <img src={icon1} alt=""/>
             </Link>
