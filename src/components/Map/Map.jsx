@@ -1,7 +1,9 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import css from './Map.module.scss'
 import adressIcon from '../../media/icons/address.png'
 import callIcon from '../../media/icons/call.png'
+import MapAPI from "../MapAPI/MapAPI";
+
 const Map = () => {
     return (
         <section className={css.wrapper}>
@@ -21,10 +23,13 @@ const Map = () => {
             </div>
 
             <div className={css.wrapper__map}>
-
+                <MapAPI />
             </div>
         </section>
     );
 };
+
+
+
 
 export default Map;
