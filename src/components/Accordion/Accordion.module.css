@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 1151px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 110px;
+  background: rgba(59, 70, 94, 0.45);
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: -68px;
+}
+.wrapper__header {
+  display: flex;
+  align-items: center;
+  height: 123px;
+  padding: 23px 0 23px 27px;
+}
+.wrapper__header img {
+  padding-right: 79px;
+}
+.wrapper__header p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.wrapper__content {
+  padding: 46px 40px 75px 40px;
+  display: none;
+  transition: 0.25s ease all;
+}
+.wrapper__content li {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: -3px 0;
+}
+
+/*# sourceMappingURL=Accordion.module.css.map */
