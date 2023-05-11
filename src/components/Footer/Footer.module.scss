@@ -12,15 +12,28 @@
   &__logo {
     display: flex;
     align-items: center;
-
     & p {
-      font-weight: 400;
+      font-family: 'Impact';
       font-size: 25px;
       line-height: 30px;
       letter-spacing: 0.08em;
       color: #F5F5F5;
       margin-left: -50px;
+      display: flex;
+      flex-direction: column;
+
+      & span {
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        text-transform: uppercase;
+        line-height: 30px;
+        letter-spacing: 0.08em;
+        color: #F5F5F5;
+      }
     }
+
+
   }
 
   &__social {

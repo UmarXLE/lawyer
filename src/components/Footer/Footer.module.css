@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1380px;
+  padding-bottom: 60px;
+  padding-top: 90px;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+}
+.footer__logo p {
+  font-family: "Impact";
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #F5F5F5;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo p span {
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #F5F5F5;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__social p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: -20px;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

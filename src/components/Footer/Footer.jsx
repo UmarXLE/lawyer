@@ -9,7 +9,9 @@ const Footer = () => {
         <footer className={css.footer}>
             <div className={css.footer__logo}>
                 <img src={logo} alt=""/>
-                <p>Алгоритм Прайм - Порядок имеет значение</p>
+                <p>АЛГОРИТМ ПРАЙМ - Порядок имеет значение <span>
+    КОНСАЛТИНГОВАЯ КОМПАНИЯ</span></p>
+
             </div>
             <div className={css.footer__social}>
                 <p>Социальные сети</p>
