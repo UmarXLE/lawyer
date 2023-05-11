@@ -6,9 +6,9 @@ import logo from '../../media/icons/logo.png'
 function Header(props) {
     return (
         <header className={css.header}>
-            <div className={css.header__logo}>
+            <Link to='/' className={css.header__logo}>
                 <img src={logo} alt=""/>
-            </div>
+            </Link>
             <nav className={css.header__nav}>
                 <Link to='/about'>О нас</Link>
                 <Link to='/legalservice'>Услуги</Link>
