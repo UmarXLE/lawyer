@@ -26,3 +26,38 @@
     }
   }
 }
+
+
+@media (max-width:1200px) {
+  .wrapper{
+    width: 90%;
+
+    &__content {
+      &_text {
+        width: 50%;
+      }
+      &_img {
+        width: 50%;
+        & img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:992px) {
+  .wrapper {
+    &__content {
+      flex-wrap: wrap-reverse;
+      &_text {
+        width: 85%;
+        margin: 0 auto;
+      }
+      &_img {
+        width: 85%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

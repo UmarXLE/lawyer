@@ -35,3 +35,28 @@
     }
   }
 }
+
+@media (max-width:1200px) {
+  .wrapper {
+    width: 90%;
+    &__content {
+      &_text {
+        padding: 30px 70px 0 45px;
+      }
+    }
+  }
+}
+
+@media (max-width:992px) {
+  .wrapper {
+    margin-top: 220px;
+    &__content {
+      flex-wrap: wrap;
+      width: 90%;
+      margin: 0 auto;
+      &_img {
+        margin: 0 auto;
+      }
+    }
+  }
+}

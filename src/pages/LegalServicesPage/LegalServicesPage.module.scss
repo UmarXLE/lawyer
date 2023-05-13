@@ -43,3 +43,16 @@
 
 
 }
+
+@media (max-width:992px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    &__content {
+     &_btn {
+       width: 100%;
+       padding-right: 0;
+     }
+    }
+  }
+}
