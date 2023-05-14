@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Intro from "../../components/Intro/Intro";
 import ServicesBlog from "../../shared/feature/ServicesBlog/ServicesBlog";
 import AccordionWrapper from "../../components/AccordionWrapper/AccordionWrapper";
+
 const HomePage = () => {
     return (
         <section>
