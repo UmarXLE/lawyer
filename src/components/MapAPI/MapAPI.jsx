@@ -4,11 +4,11 @@ const MapApi = () => {
         useEffect(() => {
             let map
             map = DG.map('map-container',{
-                center:[42.906872, 74.63971],
+                center:[42.875574, 74.58801],
                 zoom:20
             })
 
-            DG.marker([42.906872, 74.63971]).addTo(map)
+            DG.marker([42.875574, 74.58801  ]).addTo(map)
         },[])
         return (
             <div id='map-container' style={{

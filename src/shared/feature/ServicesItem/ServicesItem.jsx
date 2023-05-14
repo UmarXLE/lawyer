@@ -1,7 +1,8 @@
 import React from 'react';
+import css from './ServicesItem.module.scss'
 const ServicesItem = ({descr}) => {
     return (
-        <li>
+        <li className={css.li}>
             {descr}
         </li>
     );
