@@ -72,3 +72,26 @@
    }
   }
 }
+
+@media (max-width:767px) {
+  .wrapper{
+    & img {
+      width: 35%;
+    }
+    & h1 {
+      font-size: 30px;
+    }
+    &_img1 {
+      top: 19%;
+
+    }
+    &__btnContainer {
+      height: 200px;
+      padding-top: 80px;
+      & a {
+        font-size: 22px;
+      }
+    }
+
+  }
+}
