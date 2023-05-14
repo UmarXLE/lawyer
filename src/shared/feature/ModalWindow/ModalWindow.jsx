@@ -10,8 +10,8 @@ const ModalWindow = () => {
                 <div className={css.wrapper__btnContainer}>
                     <a target='_blank' href='https://wa.me/+996999660996'>ОФОРМИТЬ ЗАПИСЬ </a>
                 </div>
-            <img className={css.wrapper_img1} src={icon1} alt=""/>
-            <img className={css.wrapper_img2} src={icon2} alt=""/>
+            <img className={css.wrapper_img1} src={icon1} alt="imgIcon"/>
+            <img className={css.wrapper_img2} src={icon2} alt="imgIcon"/>
         </section>
     );
 };

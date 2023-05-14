@@ -3,7 +3,6 @@
   max-width: 1346px;
   margin: 0 auto;
   padding-top: 140px;
-
   & h1 {
     font-weight: 800;
     font-size: 35px;
@@ -12,11 +11,9 @@
     color: #F5F5F5;
     margin-bottom: 60px;
   }
-
   &__content {
     display: flex;
     align-items: center;
-
     &_text {
       font-weight: 400;
       font-size: 25px;
@@ -27,11 +24,9 @@
   }
 }
 
-
 @media (max-width:1200px) {
   .wrapper{
     width: 90%;
-
     &__content {
       &_text {
         width: 50%;

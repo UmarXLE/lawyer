@@ -1,10 +1,8 @@
 import React from 'react';
 import css from './ContactPage.module.scss'
-import Header from "../../components/Header/Header";
 import Map from "../../components/Map/Map";
 const ContactPage = () => {
     return (
-
         <section className={css.wrapper}>
             <h1>Контактная информация:</h1>
             <div className={css.wrapper__text}>

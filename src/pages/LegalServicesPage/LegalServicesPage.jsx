@@ -25,10 +25,7 @@ const LegalServicesPage = () => {
                     <a target='_blank'  href="https://wa.me/+996999660996">ОФОРМИТЬ ЗАПИСЬ</a>
                 </div>
             </div>
-
             <ModalWindow />
-
-
         </section>
     );
 };

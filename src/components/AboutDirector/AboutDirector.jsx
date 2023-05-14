@@ -12,7 +12,7 @@ const AboutDirector = () => {
                     <p>Магистр юриспруденции опыт работы более 5 лет в юридической сфере, бизнес-консультант, эксперт по систематизации и автоматизации бизнес-процессов, тренер по финансовой грамотности, эксперт по ораторскому искусству.</p>
                 </div>
                 <div className={css.wrapper__content_img}>
-                    <img src={iconDirector} alt=""/>
+                    <img src={iconDirector} alt="imgDirector"/>
                 </div>
             </div>
         </section>

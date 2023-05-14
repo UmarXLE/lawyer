@@ -8,7 +8,6 @@
   max-width: 1380px;
   padding-bottom: 60px;
   padding-top: 90px;
-
   &__logo {
     display: flex;
     align-items: center;
@@ -22,7 +21,6 @@
       margin-left: -50px;
       display: flex;
       flex-direction: column;
-
       & span {
         padding-left: 20px;
         font-weight: 400;
@@ -33,16 +31,12 @@
         color: #F5F5F5;
       }
     }
-
-
   }
-
   &__social {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 30%;
-
     & p {
       font-weight: 400;
       font-size: 20px;
@@ -54,7 +48,6 @@
       cursor: pointer;
     }
   }
-
 }
 
 @media (max-width:1200px) {

@@ -8,13 +8,11 @@
   flex-direction: column;
   justify-content: center;
   padding: 286px 0 76px 0;
-  //max-width: 1544px;
   &__text {
     width: 80%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 140px;
-
     & h1 {
       font-weight: 800;
       font-size: 35px;
@@ -24,7 +22,6 @@
       color: #F5F5F5;
     }
   }
-
   &__btn {
     display: inline-block;
     text-align: start;
@@ -40,7 +37,6 @@
     border-radius: 27px;
     padding: 25px 35px;
   }
-
 }
 
 @media (max-width:767px) {
@@ -51,7 +47,6 @@
   }
 }
 
-
 @media (max-width:576px) {
   .wrapper{
     &__btn {
@@ -59,7 +54,6 @@
       margin: 0 auto;
       width: 90%;
       display: flex;
-
     }
   }
 }

@@ -12,7 +12,7 @@ const AboutComponents = () => {
                     <p>Мы осуществляем весь спектр бухгалтерских услуг, начиная от мини-аудита до сдачи всех отчетов любой сложности</p>
                 </div>
                 <div className={css.wrapper__content_img}>
-                    <img src={iconAbout} alt=""/>
+                    <img src={iconAbout} alt="imgabout"/>
                 </div>
             </div>
         </section>
