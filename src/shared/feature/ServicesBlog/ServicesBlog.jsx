@@ -9,11 +9,11 @@ const ServicesBlog = () => {
         <section className={css.wrapper}>
             <Link to='/accountingservice' className={css.wrapper__item}>
                 <h1>Бухгалтерские услуги </h1>
-                <img src={icon1} alt=""/>
+                <img src={icon1} alt="imgIcon"/>
             </Link>
             <Link to='/legalservice' className={css.wrapper__item}>
                 <h1>Юридические услуги </h1>
-                <img src={icon2} alt=""/>
+                <img src={icon2} alt="imgIcon"/>
             </Link>
         </section>
     );

@@ -9,9 +9,7 @@ const AccordionWrapper = () => {
             <AccordionItem data={accordion}/>
             <AccordionItem data={accordionData2}/>
             <AccordionItem data={accordionData3}/>
-
         </section>
     );
 };
-
 export default AccordionWrapper;
