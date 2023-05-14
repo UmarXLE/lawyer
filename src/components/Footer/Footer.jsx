@@ -16,9 +16,9 @@ const Footer = () => {
             <div className={css.footer__social}>
                 <p>Социальные сети</p>
                 <div className={css.footer__social_container}>
-                    <img src={instagrammIcon} alt=""/>
-                    <img src={whatsAppIcon} alt=""/>
-                    <img src={telegramIcon} alt=""/>
+                    <a target='_blank' href="https://www.instagram.com/algorithmprime/"><img src={instagrammIcon} alt="img"/></a>
+                    <a target='_blank'  href="https://wa.me/+996999660996"><img src={whatsAppIcon} alt="img"/></a>
+                    <a target='_blank'  href="https://web.telegram.org/k/#@semetei_ryspaev"><img src={telegramIcon} alt="img"/></a>
                 </div>
             </div>
         </footer>

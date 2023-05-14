@@ -17,7 +17,7 @@ const Map = () => {
                     <img src={callIcon} alt=""/>
                     <div className={css.wrapper__text_subTitle_container}>
                         <h2>Телефон номер </h2>
-                        <a href="">+996 (999) 660 996</a>
+                        <a target='_blank'  href="tel:+996999669996">+996 (999) 660 996</a>
                     </div>
                 </div>
             </div>
