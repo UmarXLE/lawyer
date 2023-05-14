@@ -1,0 +1,35 @@
+.menu {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(105.79deg, #08427B 1.11%, #070E2a 100%);
+  position: fixed;
+  z-index: 110;
+  overflow-y: hidden;
+  &__nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+    & a {
+      text-decoration: none;
+      color: white;
+      font-size: 32px;
+    }
+  }
+  &__close {
+    width: 50px;
+    height: 50px;
+    background: url('../../media/icons/close.png')no-repeat;
+    background-size: cover;
+    z-index: 101;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}

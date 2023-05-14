@@ -3,10 +3,9 @@ import css from './Accordion.module.scss'
 import plusIcon from '../../media/icons/plus.png'
 import minusIcon from '../../media/icons/minus.png'
 const AccordionItem = ({data}) => {
-    console.log(data)
     const [open , setOpen ] = useState(false)
      return (
-            <section className={css.wrapper}>
+            <div className={css.wrapper}>
             <div className={css.wrapper__header} onClick={()=>setOpen(!open)}>
                 <img src={ open ? minusIcon : plusIcon} alt="img"/>
                 <p>{data[0].title}</p>
@@ -23,7 +22,7 @@ const AccordionItem = ({data}) => {
                     </ul>
                 }
             </div>
-            </section>
+            </div>
     );
 };
 export default AccordionItem;

@@ -1,14 +1,14 @@
+
 .header {
   width: 100%;
   margin: 0 auto;
-  //max-width: 1544px;
   padding: 45px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-height: 126px;
   top: 0;
-  z-index: 100;
+  z-index: 99;
   position: absolute;
   background: rgba(0, 138, 255, 0.35);
   &__nav {
@@ -23,8 +23,15 @@
       margin-right: 121px;
     }
   }
+  &__burger{
+    width: 50px;
+    height: 50px;
+    background: url('../../media/icons/menu.png')no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: none;
+  }
 }
-
 
 @media (max-width: 1200px) {
   .header {
@@ -56,6 +63,9 @@
     }
     &__nav {
       display: none;
+    }
+    &__burger {
+      display: block;
     }
   }
 }
