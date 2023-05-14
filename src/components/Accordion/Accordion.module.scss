@@ -35,13 +35,12 @@
   &__content {
     padding: 46px 40px 75px 40px;
     display: none;
-    transition: 0.25s ease all;
     & li {
       font-weight: 400;
       font-size: 25px;
       line-height: 30px;
       color: #FFFFFF;
-      margin: -3px 0;
+      margin-bottom: 15px;
     }
   }
 }
@@ -86,7 +85,6 @@
         line-height: 30px;
         color: #FFFFFF;
         margin-bottom: 15px;
-
       }
     }
   }
