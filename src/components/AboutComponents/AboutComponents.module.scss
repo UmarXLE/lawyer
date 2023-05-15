@@ -1,7 +1,8 @@
 .wrapper {
   width: 100%;
   max-width: 1346px;
-  margin: 283px auto 0 auto;
+  margin: 283px auto 0;
+
   & h1 {
     font-weight: 800;
     font-size: 30px;
@@ -10,15 +11,18 @@
     color: #F5F5F5;
     margin-bottom: 61px;
   }
+
   &__content {
     background: rgba(122, 105, 105, 0.45);
     border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     &_text {
-      padding: 30px 55px 0 7px;
-      & p{
+      padding-left: 25px;
+
+      & p {
         font-weight: 400;
         font-size: 25px;
         line-height: 30px;
@@ -26,30 +30,30 @@
         margin-bottom: 10px;
       }
     }
-    &_img {
-      padding: 51px 25px 97px 25px;
-    }
   }
 }
 
-@media (max-width:1200px) {
-  .wrapper {
-    width: 90%;
-    &__content {
-      &_text {
-        padding: 30px 70px 0 45px;
-      }
-    }
-  }
-}
+// @media (max-width:1200px) {
+//   .wrapper {
+//     width: 90%;
+
+//     &__content {
+//       &_text {
+//         padding: 30px 70px 0 45px;
+//       }
+//     }
+//   }
+// }
 
 @media (max-width:992px) {
   .wrapper {
     margin-top: 220px;
+
     &__content {
       flex-wrap: wrap;
       width: 90%;
       margin: 0 auto;
+
       &_img {
         margin: 0 auto;
       }

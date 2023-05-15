@@ -1,17 +1,24 @@
-import React, {useContext} from 'react';
-import css from './Menu.module.scss'
+import React from "react";
 import {Link} from "react-router-dom";
-import {CustomContext} from "../../utils/Context";
-const Menu = () => {
-    const {open , setOpen } = useContext(CustomContext)
+
+import css from "./Menu.module.scss";
+
+
+const Menu = ({isOpen, onClose}) => {
     return (
-        <section className={css.menu}>
+        <section className={isOpen ? css.menu__animation : css.menu}>
             <nav className={css.menu__nav}>
-                <Link to='/about'>О нас</Link>
-                <Link to='/legalservice'>Услуги</Link>
-                <Link to='/contact'>Контакты</Link>
+                <Link to="/about" onClick={() => onClose()}>
+                    О нас
+                </Link>
+                <Link to="/legalservice" onClick={() => onClose()}>
+                    Услуги
+                </Link>
+                <Link to="/contact" onClick={() => onClose()}>
+                    Контакты
+                </Link>
             </nav>
-            <button onClick={()=>setOpen(!open)} className={css.menu__close}></button>
+            <button className={css.menu__close} onClick={() => onClose()} />
         </section>
     );
 };

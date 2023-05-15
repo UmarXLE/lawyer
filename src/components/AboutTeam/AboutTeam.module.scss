@@ -3,6 +3,7 @@
   max-width: 1346px;
   margin: 0 auto;
   padding-top: 140px;
+
   & h1 {
     font-weight: 800;
     font-size: 35px;
@@ -11,28 +12,33 @@
     color: #F5F5F5;
     margin-bottom: 60px;
   }
+
   &__content {
     display: flex;
     align-items: center;
-    &_text {
+    gap: 40px;
+
+    & p {
       font-weight: 400;
       font-size: 25px;
       line-height: 30px;
       color: #F5F5F5;
-      padding: 0 0 47px 40px;
     }
   }
 }
 
 @media (max-width:1200px) {
-  .wrapper{
+  .wrapper {
     width: 90%;
+
     &__content {
       &_text {
         width: 50%;
       }
+
       &_img {
         width: 50%;
+
         & img {
           max-width: 100%;
         }
@@ -45,10 +51,12 @@
   .wrapper {
     &__content {
       flex-wrap: wrap-reverse;
+
       &_text {
         width: 85%;
         margin: 0 auto;
       }
+
       &_img {
         width: 85%;
         margin: 0 auto;
