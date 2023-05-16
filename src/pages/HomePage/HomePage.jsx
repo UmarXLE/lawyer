@@ -1,4 +1,5 @@
-import React, {useContext} from 'react';
+import React from 'react';
+
 import Intro from "../../components/Intro/Intro";
 import ServicesBlog from "../../shared/feature/ServicesBlog/ServicesBlog";
 import AccordionWrapper from "../../components/AccordionWrapper/AccordionWrapper";

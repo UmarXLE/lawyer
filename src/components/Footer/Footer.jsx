@@ -1,5 +1,7 @@
 import React from 'react';
+
 import css from './Footer.module.scss'
+
 import logo from '../../media/icons/footer-logo.png'
 import instagrammIcon from '../../media/icons/inst.png'
 import whatsAppIcon from '../../media/icons/whats.png'

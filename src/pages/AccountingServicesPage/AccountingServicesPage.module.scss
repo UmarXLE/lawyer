@@ -69,15 +69,27 @@
     margin: 0 auto;
     &__content {
       padding: 79px 50px 112px 50px;
-
     }
   }
 }
 
 @media (max-width:576px) {
   .wrapper {
+    &__title {
+      font-size: 30px;
+      margin: 160px 0 40px 0;
+    }
     &__content{
         padding: 50px 20px 50px 20px;
+      &_btns {
+        padding-top: 40px;
+        a {
+          font-size: 25px;
+          line-height: 25px;
+          padding: 20px;
+          margin-bottom: 10px;
+        }
+      }
     }
   }
 }

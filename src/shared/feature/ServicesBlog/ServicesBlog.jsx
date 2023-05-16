@@ -1,7 +1,10 @@
-import React from 'react';
+import React from 'react'
+
 import css from './ServicesBlog.module.scss'
+
 import icon1 from '../../../media/images/services-blog-1.png'
 import icon2 from '../../../media/images/services-blog-2.png'
+
 import {Link} from "react-router-dom";
 
 const ServicesBlog = () => {
