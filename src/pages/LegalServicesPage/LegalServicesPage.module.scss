@@ -10,7 +10,6 @@
     color: #FFFFFF;
     padding: 0 18px 95px 0;
   }
-
   &__content {
     padding: 135px 88px 152px 88px;
     background: rgba(99, 96, 96, 0.71);
@@ -18,8 +17,6 @@
     max-width: 1320px;
     width: 100%;
     margin: 0 auto;
-
-
     &_btn {
       padding-right: 58px;
       text-align: center;
@@ -35,13 +32,10 @@
         text-decoration: none;
       }
     }
-
     &_items {
       padding: 0 0 127px 34px;
     }
   }
-
-
 }
 @media (max-width:1200px) {
   .wrapper {
@@ -82,11 +76,24 @@
   .wrapper {
     width: 90%;
     margin: 0 auto;
+    & h1 {
+      font-size: 30px;
+      margin-top: 160px;
+      padding: 0 0 40px 0;
+    }
     &__content {
-      padding: 60px 50px 100px 50px;
+      padding:50px 20px 80px 20px;
       &_btn {
         & a {
-          font-size: 22px;
+          font-size: 14px;
+        }
+      }
+      &_items{
+        padding: 0 0 40px 15px;
+        & li {
+          font-size: 20px;
+          line-height: 27px;
+          margin-bottom: 15px;
         }
       }
     }
