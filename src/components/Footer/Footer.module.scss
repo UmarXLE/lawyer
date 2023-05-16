@@ -91,3 +91,30 @@
     }
   }
 }
+
+@media (max-width:576px) {
+  .footer {
+    &__logo{
+      & img {
+        width: 50%;
+      }
+      & p {
+        font-size: 20px ;
+        padding-left: 10px  ;
+        & span {
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+    }
+    &__social {
+      & p {
+        font-size: 18px ;
+        margin-bottom: 1px;
+      }
+      & img {
+        width: 100px;
+      }
+    }
+  }
+}

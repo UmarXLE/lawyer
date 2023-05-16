@@ -80,3 +80,27 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .wrapper {
+    &__header{
+      padding: 20px 0 23px 0px;
+      & img {
+        padding-right: 20px;
+        width: 50px;
+      }
+      & p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+    }
+    &__content {
+      padding: 46px 20px 25px 20px;
+      & li {
+        font-size: 18px;
+      }
+    }
+  }
+}

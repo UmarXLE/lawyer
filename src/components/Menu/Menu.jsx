@@ -8,6 +8,9 @@ const Menu = ({isOpen, onClose}) => {
     return (
         <section className={isOpen ? css.menu__animation : css.menu}>
             <nav className={css.menu__nav}>
+                <Link to="/" onClick={() => onClose()}>
+                    Главная
+                </Link>
                 <Link to="/about" onClick={() => onClose()}>
                     О нас
                 </Link>

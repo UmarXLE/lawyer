@@ -95,3 +95,21 @@
 
   }
 }
+
+@media (max-width:576px) {
+  .wrapper {
+    padding-top:  85px;
+    &__btnContainer {
+      height: 130px;
+      padding-top: 50px;
+    }
+
+    & a{
+      font-size: 14px;
+    }
+    & h1 {
+      font-size: 22px;
+      padding: 15px 0;
+    }
+  }
+}
