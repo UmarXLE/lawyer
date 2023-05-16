@@ -1,6 +1,9 @@
 import React from 'react';
+
 import css from './AccountingServicesPage.module.scss'
+
 import {accountingServices} from "../../api/data";
+
 import ServicesItem from "../../shared/feature/ServicesItem/ServicesItem";
 import ModalWindow from "../../shared/feature/ModalWindow/ModalWindow";
 

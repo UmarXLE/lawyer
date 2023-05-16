@@ -1,5 +1,7 @@
 import React from "react";
+
 import css from "./AboutTeam.module.scss";
+
 import iconTeam from "../../media/images/about-team.png";
 
 const AboutTeam = () => {

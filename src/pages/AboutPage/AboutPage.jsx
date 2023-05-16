@@ -1,5 +1,7 @@
 import React, {useContext} from 'react';
+
 import css from './AboutPage.module.scss'
+
 import AboutComponents from "../../components/AboutComponents/AboutComponents";
 import AboutTeam from "../../components/AboutTeam/AboutTeam";
 import AboutDirector from "../../components/AboutDirector/AboutDirector";

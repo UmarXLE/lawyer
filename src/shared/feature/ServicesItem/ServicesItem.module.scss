@@ -5,3 +5,14 @@
   line-height: 42px;
   margin-bottom: 43px;
 }
+
+
+@media (max-width:576px) {
+  .li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+}
