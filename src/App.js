@@ -6,6 +6,7 @@ import LegalServicesPage from "./pages/LegalServicesPage/LegalServicesPage";
 import AccountingServicesPage from "./pages/AccountingServicesPage/AccountingServicesPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import ServicesPage from "./pages/ServicesPage/ServicesPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path='/about' element={<AboutPage/>}/>
               <Route path='/contact' element={<ContactPage/>}/>
               <Route path='/legalservice' element={<LegalServicesPage/>}/>
+              <Route path='/service' element={<ServicesPage/>}/>
               <Route path='/accountingservice' element={<AccountingServicesPage/>}/>
           </Routes>
         <Footer/>

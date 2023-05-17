@@ -8,7 +8,9 @@ const HomePage = () => {
     return (
         <section>
             <Intro />
-            <ServicesBlog />
+            <section>
+                <ServicesBlog />
+            </section>
             <AccordionWrapper />
         </section>
     );

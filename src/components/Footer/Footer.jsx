@@ -11,8 +11,7 @@ const Footer = () => {
         <footer className={css.footer}>
             <div className={css.footer__logo}>
                 <img src={logo} alt="imgLogo"/>
-                <p>АЛГОРИТМ ПРАЙМ - Порядок имеет значение <span>
-    КОНСАЛТИНГОВАЯ КОМПАНИЯ</span></p>
+                <p>АЛГОРИТМ ПРАЙМ - Порядок имеет значение </p>
             </div>
             <div className={css.footer__social}>
                 <p>Социальные сети</p>

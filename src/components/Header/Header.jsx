@@ -18,7 +18,7 @@ function Header(props) {
             </Link>
             <nav className={css.header__nav}>
                 <Link to="/about">О нас</Link>
-                <Link to="/legalservice">Услуги</Link>
+                <Link to="/service">Услуги</Link>
                 <Link to="/contact">Контакты</Link>
             </nav>
             <div onClick={() => setIsOpen(true)} className={css.header__burger}></div>

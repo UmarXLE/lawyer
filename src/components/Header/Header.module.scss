@@ -14,13 +14,13 @@
   &__nav {
     display: flex;
     align-items: center;
+    gap: 120px;
     & a {
       text-decoration: none;
       font-weight: 800;
       font-size: 25px;
       line-height: 30px;
       color: #F5F5F5;
-      margin-right: 121px;
     }
   }
   &__burger{
