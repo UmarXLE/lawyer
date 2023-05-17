@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import css from "./Header.module.scss";
 
 import logo from "../../media/icons/logo.png";
-
 import Menu from "../Menu/Menu";
 
 

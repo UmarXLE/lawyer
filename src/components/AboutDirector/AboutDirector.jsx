@@ -3,6 +3,8 @@ import React from "react";
 import css from "./AboutDirector.module.scss";
 
 import iconDirector from "../../media/images/about-director.png";
+
+
 const AboutDirector = () => {
     return (
         <section className={css.wrapper}>

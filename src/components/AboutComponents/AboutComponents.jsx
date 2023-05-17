@@ -3,6 +3,8 @@ import React from 'react';
 import css from './AboutComponents.module.scss'
 
 import iconAbout from '../../media/images/about-1.png'
+
+
 const AboutComponents = () => {
     return (
         <section className={css.wrapper}>

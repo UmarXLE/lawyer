@@ -5,6 +5,7 @@ import css from './ModalWindow.module.scss'
 import icon1 from '../../../media/icons/modal-1.png'
 import icon2 from '../../../media/icons/modal-2.png'
 
+
 const ModalWindow = () => {
     return (
         <section className={css.wrapper}>
