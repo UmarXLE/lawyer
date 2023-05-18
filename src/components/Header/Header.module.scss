@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  //max-width: 1544px;
+  padding: 45px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 126px;
+  top: 0;
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 138, 255, 0.35);
+  &__nav {
+    display: flex;
+    align-items: center;
+    & a {
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 25px;
+      line-height: 30px;
+      color: #F5F5F5;
+      margin-right: 121px;
+    }
+  }
+}
