@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 
 import DG from "2gis-maps";
+
+
 const MapApi = () => {
         useEffect(() => {
             let map

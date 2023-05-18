@@ -7,12 +7,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 286px 0 76px 0;
+  padding: 286px 20px 76px;
+
   &__text {
     width: 80%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 140px;
+
     & h1 {
       font-weight: 800;
       font-size: 35px;
@@ -22,6 +24,7 @@
       color: #F5F5F5;
     }
   }
+
   &__btn {
     display: inline-block;
     text-align: start;
@@ -40,26 +43,36 @@
 }
 
 @media (max-width:767px) {
-  .wrapper{
+  .wrapper {
+    padding: 150px 20px 76px;
+
     &__text {
-      width: 95%;
+      width: 100%;
+      padding-bottom: 100px;
     }
   }
 }
 
 @media (max-width:576px) {
-  .wrapper{
+  .wrapper {
     &__btn {
+      display: flex;
+      justify-content: center;
       text-align: center;
       margin: 0 auto;
-      width: 90%;
+      max-width: 365px;
       display: flex;
-      font-size: 22px;
-      padding: 6px 20px;
+      font-size: 19px;
+      padding: 6px 15px;
+      line-height: 26px;
     }
+
     &__text {
+      padding-bottom: 60px;
+
       & h1 {
-        font-size: 28px;
+        font-size: 21px;
+        line-height: 30px;
       }
     }
   }

@@ -7,6 +7,7 @@ import {accountingServices} from "../../api/data";
 import ServicesItem from "../../shared/feature/ServicesItem/ServicesItem";
 import ModalWindow from "../../shared/feature/ModalWindow/ModalWindow";
 
+
 const AccountingServicesPage = () => {
     return (
         <section className={css.wrapper}>

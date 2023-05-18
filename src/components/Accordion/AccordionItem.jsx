@@ -4,6 +4,8 @@ import css from './Accordion.module.scss'
 
 import plusIcon from '../../media/icons/plus.png'
 import minusIcon from '../../media/icons/minus.png'
+
+
 const AccordionItem = ({data}) => {
     const [open , setOpen ] = useState(false)
      return (

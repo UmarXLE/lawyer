@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {legalServices} from "../../api/data";
 import css from './LegalServicesPage.module.scss'
 import ServicesItem from "../../shared/feature/ServicesItem/ServicesItem";
