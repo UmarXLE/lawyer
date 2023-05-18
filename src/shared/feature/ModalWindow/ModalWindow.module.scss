@@ -13,14 +13,14 @@
     position: absolute;
     top: 14%;
     left: -15%;
-    z-index: 100;
+    z-index: 90;
   }
 
   &_img2 {
     position: absolute;
     bottom: -3%;
     right: -21%;
-    z-index: 100;
+    z-index: 90;
   }
 
   & h1 {
@@ -108,9 +108,18 @@
 
 @media (max-width:576px) {
   .wrapper {
-    padding-top: 85px;
+    padding-top:  85px;
     width: 90%;
-
+    & img {
+      width: 25%;
+    }
+    &_img1 {
+      left: -8%;
+    }
+    &_img2 {
+      bottom: -15%;
+      right: -9%;
+    }
     &__btnContainer {
       height: 130px;
       padding-top: 50px;

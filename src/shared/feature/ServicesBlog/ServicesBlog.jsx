@@ -9,8 +9,9 @@ import icon2 from "../../../media/images/services-blog-2.png";
 
 const ServicesBlog = () => {
     return (
-        <section className={css.wrapper}>
-            <Link to="/accountingservice" className={css.wrapper__item}>
+        <div id="service" className={css.wrapper}>
+            <Link to='/accountingservice' className={css.wrapper__item}>
+
                 <h1>Бухгалтерские услуги </h1>
                 <img src={icon1} alt="imgIcon" />
             </Link>
@@ -18,7 +19,7 @@ const ServicesBlog = () => {
                 <h1>Юридические услуги </h1>
                 <img src={icon2} alt="imgIcon" />
             </Link>
-        </section>
+        </div>
     );
 };
 
