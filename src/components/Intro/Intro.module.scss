@@ -3,12 +3,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 286px 20px 76px;
+  position: relative;
 
+  &__limiter {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
   &__text {
     width: 80%;
     margin: 0 auto;

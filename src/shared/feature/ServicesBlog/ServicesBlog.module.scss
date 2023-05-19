@@ -2,11 +2,11 @@
   width: 100%;
   max-width: 1192px;
   margin: 0 auto;
-  padding: 108px 20px 0 20px;
+  padding: 90px 20px 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 130px;
+  gap: 20px;
 
   &__item {
     text-decoration: none;
@@ -26,6 +26,10 @@
   .wrapper {
     width: 100%;
     gap: 100px;
+
+    & h1 {
+      font-size: 40px;
+    }
 
     &__item {
       width: 45%;
@@ -48,8 +52,8 @@
 
       & h1 {
         font-weight: 900;
-        font-size: 35px;
-        line-height: 54px;
+        font-size: 30px;
+        line-height: 30px;
         color: #FFFFFF;
         margin-bottom: 20px;
       }

@@ -6,8 +6,8 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1380px;
-  padding-bottom: 60px;
-  padding-top: 90px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 
   &__logo {
     display: flex;
@@ -73,6 +73,7 @@
 
     &__logo {
       width: 100%;
+      justify-content: center;
     }
 
     &__social {
