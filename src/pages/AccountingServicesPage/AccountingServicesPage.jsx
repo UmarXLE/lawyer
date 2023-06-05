@@ -1,25 +1,34 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import css from './AccountingServicesPage.module.scss'
 
-import {accountingServices} from "../../api/data";
 
 import ServicesItem from "../../shared/feature/ServicesItem/ServicesItem";
 import ModalWindow from "../../shared/feature/ModalWindow/ModalWindow";
+import {getData} from "../../services/getData";
 
 
 const AccountingServicesPage = () => {
+    const [data , setData ] = useState([])
+    useEffect(()=> {
+        getData('http://localhost:8000/api/services_list/')
+            .then(res => {
+                console.log(res.data)
+                setData(res.data)
+            })
+            .catch(err => console.log(err))
+    },[])
     return (
         <section className={css.wrapper}>
             <h1 className={css.wrapper__title}>Бухгалтерские  услуги</h1>
             <div className={css.wrapper__content}>
                 <div className={css.wrapper__content_items}>
                     {
-                        accountingServices.map(item => {
+                        data.filter(item => item.category === 1).map(item => {
                             return <ServicesItem
                                 id = {item.id}
                                 key = {item.id}
-                                descr= {item.descr}
+                                name= {item.name}
                             />
                         })
                     }

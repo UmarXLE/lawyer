@@ -12,19 +12,10 @@ const AccordionItem = ({data}) => {
             <div className={css.wrapper}>
             <div className={css.wrapper__header} onClick={()=>setOpen(!open)}>
                 <img src={ open ? minusIcon : plusIcon} alt="img"/>
-                <p>{data[0].title}</p>
+                <p>{data?.question}</p>
             </div>
             <div className={css.wrapper__content} style={{display: open ? 'block' : 'none'}}>
-                {
-                    open &&
-                    <ul>
-                        {
-                            data[1].posts.map(item => {
-                                return <li key = {item.id}>{item.descr}</li>
-                            })
-                        }
-                    </ul>
-                }
+                <li>{data?.answer}</li>
             </div>
             </div>
     );

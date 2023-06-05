@@ -15,6 +15,9 @@
     max-height: 126px;
 
   }
+  &__logo img{
+    width: 85%;
+  }
   &__nav {
     display: flex;
     align-items: center;
@@ -22,7 +25,7 @@
     & a {
       text-decoration: none;
       font-weight: 800;
-      font-size: 25px;
+      font-size: 22px;
       line-height: 30px;
       color: #F5F5F5;
     }

@@ -6,7 +6,7 @@ import adressIcon from "../../media/icons/address.png";
 import callIcon from "../../media/icons/call.png";
 import MapAPI from "../MapAPI/MapAPI";
 
-const Map = () => {
+const Map = ({data}) => {
     return (
         <section className={css.wrapper}>
             <div className={css.wrapper__text}>
@@ -14,18 +14,18 @@ const Map = () => {
                     <img src={adressIcon} alt="imgAdress" />
                     <p>Адрес</p>
                 </div>
-                <p className={css.wrapper__text_descr}>Кыргызская Республика, г. Бишкек ул. Манаса 40, 4 - этаж, 1 кабинет </p>
+                <p className={css.wrapper__text_descr}>{data?.address}</p>
                 <div className={css.wrapper__text_subTitle}>
                     <img src={callIcon} alt="imgCall" />
                     <div className={css.wrapper__text_subTitle_container}>
                         <h2>Телефон номер </h2>
-                        <a target="_blank" href="tel:+996999669996">
-                            +996 (999) 660 996
+                        <a target="_blank" href="">
+                            {data?.phone}
                         </a>
                     </div>
                 </div>
-                <a target="_blank" href="tel:+996999669996" className={css.mobile_wrapper__text_descr}>
-                    +996 (999) 660 996
+                <a target="_blank" href="" className={css.mobile_wrapper__text_descr}>
+                    {data?.phone}
                 </a>
             </div>
             <div className={css.wrapper__map}>
